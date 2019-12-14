@@ -1,0 +1,1 @@
+(dir (Get-Command dotnet).Path.Replace('dotnet.exe', 'sdk')).Name
